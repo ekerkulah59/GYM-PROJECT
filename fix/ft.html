@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+.booking{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #e010109c;
+    padding: 10px;
+}
+.form{
+    
+    padding: 10px;
+    width: 50%;
+    background: forestgreen;
+}
+.form-details{
+    border: #f7f0f0 solid 1px;
+    text-align: center;
+    background: #f105052b;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.active-hours{
+    width: 50%;
+    background: #ddd;
+}
+.active-hours h3{
+    color: #cd4545;
+}
+
+
+input{
+    padding: 10px;
+    margin: 10px;
+    color: whitesmoke;
+    font-size: 18px;
+    border-bottom: solid 1px ;
+    background: transparent ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button{
+    border-radius: 10px;
+    padding: 12px;
+    background: rebeccapurple;
+    color: #f1f1f1;
+    margin: 4px;
+    text-transform: uppercase;
+    font-size: 15px;
+    outline: none;
+}
+.daysofopens{
+    padding: 10px;
+    margin: 5px;
+    background: #1717177e;
+}
+
+table{
+    background-color: rgba(176, 184, 193, 0.53);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    
+}
+
+table,  th, td{
+    background: transparent;
+   border-bottom: 2px solid rgba(33, 34, 34, 0.58);
+   border-collapse: collapse;
+   outline: none;
+   color: #f4efef;
+   text-transform: uppercase;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="booking">
+            <div class="form">
+                <h2>Sign up for Traning here</h2>
+                <form action="/action_page.php">
+                    <div class="form-details">
+                        <input type="text" placeholder="First Name" minlength="2" maxlength="20" required>
+                        <input type="text" placeholder="Last Name" minlength="2" maxlength="20" required > <br>
+                        <input type="tel" placeholder="Phone number" required>
+                        <input type="email" placeholder="Enter Email" required> <br>
+                        <button class="button" type="submit">Sing Up</button>
+                   </div>
+                </form>
+                 
+            </div>
+               <div class="active-hours">
+                    <h3>opening hours</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem reprehenderit est minima laudantium totam deserunt, voluptatum dolor. Sequi ea doloremque voluptatibus blanditiis obcaecati exercitationem voluptate quas repellendus velit fuga.
+                    Aspernatur voluptatum ea, obcaecati eius soluta, consectetur perspiciatis doloremque excepturi debitis ratione totam. Tempore voluptas nihil nemo fugiat dolorum illo, itaque placeat facere dolor alias distinctio quas! Soluta, dolores ea!
+                    Saepe facere doloribus blanditiis cum quis nemo cupiditate tempore dignissimos nihil recusandae, iste sapiente explicabo deleniti quidem ducimus! Minus corrupti pariatur aliquam deleniti exercitationem mollitia cum sapiente sed molestiae quibusdam!</p>
+                    <div class="daysofopens">
+                        <table>
+                            <tr>
+                                <th>Day</th>
+                                <th>Hours</th>
+                            </tr>
+                            <tr>
+                                <td>Monday - Wednesday</td>
+                                <td>6am - 6am</td>
+                            </tr>
+                            <tr> 
+                                <td>Thurday - saturday</td>
+                                <td>7am - 7am</td>
+                            </tr>
+                            <tr> 
+                                <td>Sunday</td>
+                                <td>5am - 7pm</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+               </div>
+        </div>
+    </section>
+</body>
+</html>
