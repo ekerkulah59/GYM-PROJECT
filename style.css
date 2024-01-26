@@ -520,7 +520,7 @@ footer{
 }
 .footer-top{
     background: blue;
-    height: 110px;
+    height: 125px;
     margin-top: 10px;
     text-align: center;
 
@@ -529,7 +529,7 @@ footer{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 .row-item h6{
     margin: 5px;
